@@ -3,7 +3,7 @@
 #   Implemented in Julia 1.6
 
 # ==============================================================================
-include("parserMKPzitzler.jl")
+include("parserMOMKPzitzler.jl")
 
 # ==============================================================================
 # Datastructure of a generic bi-objective 0/1 IP where all coefficients are integer
