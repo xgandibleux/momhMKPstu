@@ -19,7 +19,7 @@ fname = "instancesZitzler/knapsack.100.3"
 verbose = true
 
 # Read and load an instance of MO-MKP from the collection of E. Zitzler
-zitzler = readInstanceMOMKPformatZitzler(verbose,fname)
+momkpZitzler = readInstanceMOMKPformatZitzler(verbose,fname)
 
 # Reduce the MO-MKP instance to the two first objectives and manage it as a generic bi-01IP
-dat = _bi01IP(zitzler.P[1:2,:], zitzler.W, zitzler.ω)
+dat = _bi01IP(momkpZitzler.P[1:2,:], momkpZitzler.W, momkpZitzler.ω)
