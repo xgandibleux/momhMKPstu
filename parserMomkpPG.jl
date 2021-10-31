@@ -54,5 +54,5 @@ end
 # ==============================================================================
 
 # Example on how to use it :
-# fname="ZL28.DAT"; verbose = true
+# fname="set1/ZL28.DAT"; verbose = true
 # instancePG = readInstanceMOMKPformatPG(verbose,fname)

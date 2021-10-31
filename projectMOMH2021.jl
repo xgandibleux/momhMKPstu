@@ -26,7 +26,9 @@ momkpZL = readInstanceMOMKPformatZL(verbose,fname)
 dat1 = _bi01IP(momkpZL.P[1:2,:], momkpZL.W, momkpZL.ω)
 
 
-fname = "instancesPG1/ZL28.DAT"
+fname = "instancesPG/set1/ZL28.DAT"
+#fname = "instancesPG/set2/kp28W-Perm.DAT"
+#fname = "instancesPG/set3/W7BI-tube1-1800.DAT"
 verbose = true
 
 # Read and load an instance of Bi-01BKP from the collection of O. Perederieieva / X. Gandibleux
