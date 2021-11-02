@@ -2,9 +2,7 @@
 # Xavier Gandibleux - November 2021
 #   Implemented in Julia 1.6
 
-
 # ==============================================================================
-# The gravity machine (Man of Steel) -> to terraform the world
 
 println("""\nProject MOMH 2021" --------------------------------\n""")
 
