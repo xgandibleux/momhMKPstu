@@ -2,9 +2,8 @@
 # Xavier Gandibleux - November 2021
 #   Implemented in Julia 1.6
 
-using PyPlot
-
 # ==============================================================================
+using PyPlot
 
 # ------------------------------------------------------------------------------
 # kung Algorithm for extracting SN from a static set S of points
