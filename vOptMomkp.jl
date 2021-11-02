@@ -1,5 +1,19 @@
+# ==============================================================================
+# Xavier Gandibleux - November 2021
+#   Implemented in Julia 1.6
+
+# ==============================================================================
+# Using ϵ-constraint method with vOptGeneric, compute the set of non-dominated
+# points of the following problem:
+#
+#   Max  sum{j=1,...,n} C(k,j) x(j)                k=1,...,2
+#   st   sum{j=1,...,n} A(i,j) x(j) <= B(i)        i=1,...,m
+#                       x(j) = 0 or 1
+
+# ==============================================================================
 using vOptGeneric, JuMP, GLPK
 
+# ==============================================================================
 # Setting a Bi01IP instance and solving with vOptGeneric
 function vSolveBi01IP(solverSelected, C, A, B)
 
