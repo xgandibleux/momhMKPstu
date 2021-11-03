@@ -82,6 +82,7 @@ function displayGraphics(fname,YN)
     # Display a Upper bound set (primal, by default)
     if DisplayUBS
         plot(xU, yU, color="green", linewidth=0.75, marker="+", markersize=1.0, linestyle=":")
+        scatter(xU, yU, color="green", label = L"y \in U", s = 150,alpha = 0.3)
         scatter(xU, yU, color="green", marker="o", label = L"y \in U")
     end
 
